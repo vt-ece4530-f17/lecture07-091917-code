@@ -4,7 +4,7 @@ unsigned long mymul(unsigned a, unsigned b) {
   return r;
 }
 
-volatile int arg1 = 5, arg2 = 3;
+volatile unsigned arg1 = 5, arg2 = 3;
 
 int main() {
   return mymul(arg1, arg2);
